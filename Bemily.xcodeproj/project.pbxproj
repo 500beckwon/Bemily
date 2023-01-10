@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687A9CE1296D4BCD0024176D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9CE0296D4BCD0024176D /* AppDelegate.swift */; };
+		687A9CE3296D4BCD0024176D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9CE2296D4BCD0024176D /* SceneDelegate.swift */; };
+		687A9CE5296D4BCD0024176D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9CE4296D4BCD0024176D /* ViewController.swift */; };
+		687A9CE8296D4BCD0024176D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687A9CE6296D4BCD0024176D /* Main.storyboard */; };
+		687A9CEB296D4BCD0024176D /* Bemily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 687A9CE9296D4BCD0024176D /* Bemily.xcdatamodeld */; };
+		687A9CED296D4BCE0024176D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687A9CEC296D4BCE0024176D /* Assets.xcassets */; };
+		687A9CF0296D4BCE0024176D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687A9CEE296D4BCE0024176D /* LaunchScreen.storyboard */; };
+		687A9CFB296D4BCE0024176D /* BemilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9CFA296D4BCE0024176D /* BemilyTests.swift */; };
+		687A9D05296D4BCE0024176D /* BemilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9D04296D4BCE0024176D /* BemilyUITests.swift */; };
+		687A9D07296D4BCE0024176D /* BemilyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A9D06296D4BCE0024176D /* BemilyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		687A9CF7296D4BCE0024176D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687A9CD5296D4BCD0024176D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687A9CDC296D4BCD0024176D;
+			remoteInfo = Bemily;
+		};
+		687A9D01296D4BCE0024176D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687A9CD5296D4BCD0024176D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 687A9CDC296D4BCD0024176D;
+			remoteInfo = Bemily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		687A9CDD296D4BCD0024176D /* Bemily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bemily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687A9CE0296D4BCD0024176D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687A9CE2296D4BCD0024176D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		687A9CE4296D4BCD0024176D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		687A9CE7296D4BCD0024176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687A9CEA296D4BCD0024176D /* Bemily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bemily.xcdatamodel; sourceTree = "<group>"; };
+		687A9CEC296D4BCE0024176D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687A9CEF296D4BCE0024176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687A9CF1296D4BCE0024176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687A9CF6296D4BCE0024176D /* BemilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BemilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687A9CFA296D4BCE0024176D /* BemilyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemilyTests.swift; sourceTree = "<group>"; };
+		687A9D00296D4BCE0024176D /* BemilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BemilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		687A9D04296D4BCE0024176D /* BemilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemilyUITests.swift; sourceTree = "<group>"; };
+		687A9D06296D4BCE0024176D /* BemilyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemilyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687A9CDA296D4BCD0024176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687A9CF3296D4BCE0024176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687A9CFD296D4BCE0024176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687A9CD4296D4BCD0024176D = {
+			isa = PBXGroup;
+			children = (
+				687A9CDF296D4BCD0024176D /* Bemily */,
+				687A9CF9296D4BCE0024176D /* BemilyTests */,
+				687A9D03296D4BCE0024176D /* BemilyUITests */,
+				687A9CDE296D4BCD0024176D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		687A9CDE296D4BCD0024176D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687A9CDD296D4BCD0024176D /* Bemily.app */,
+				687A9CF6296D4BCE0024176D /* BemilyTests.xctest */,
+				687A9D00296D4BCE0024176D /* BemilyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687A9CDF296D4BCD0024176D /* Bemily */ = {
+			isa = PBXGroup;
+			children = (
+				687A9CE0296D4BCD0024176D /* AppDelegate.swift */,
+				687A9CE2296D4BCD0024176D /* SceneDelegate.swift */,
+				687A9CE4296D4BCD0024176D /* ViewController.swift */,
+				687A9CE6296D4BCD0024176D /* Main.storyboard */,
+				687A9CEC296D4BCE0024176D /* Assets.xcassets */,
+				687A9CEE296D4BCE0024176D /* LaunchScreen.storyboard */,
+				687A9CF1296D4BCE0024176D /* Info.plist */,
+				687A9CE9296D4BCD0024176D /* Bemily.xcdatamodeld */,
+			);
+			path = Bemily;
+			sourceTree = "<group>";
+		};
+		687A9CF9296D4BCE0024176D /* BemilyTests */ = {
+			isa = PBXGroup;
+			children = (
+				687A9CFA296D4BCE0024176D /* BemilyTests.swift */,
+			);
+			path = BemilyTests;
+			sourceTree = "<group>";
+		};
+		687A9D03296D4BCE0024176D /* BemilyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				687A9D04296D4BCE0024176D /* BemilyUITests.swift */,
+				687A9D06296D4BCE0024176D /* BemilyUITestsLaunchTests.swift */,
+			);
+			path = BemilyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687A9CDC296D4BCD0024176D /* Bemily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687A9D0A296D4BCE0024176D /* Build configuration list for PBXNativeTarget "Bemily" */;
+			buildPhases = (
+				687A9CD9296D4BCD0024176D /* Sources */,
+				687A9CDA296D4BCD0024176D /* Frameworks */,
+				687A9CDB296D4BCD0024176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bemily;
+			productName = Bemily;
+			productReference = 687A9CDD296D4BCD0024176D /* Bemily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		687A9CF5296D4BCE0024176D /* BemilyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687A9D0D296D4BCE0024176D /* Build configuration list for PBXNativeTarget "BemilyTests" */;
+			buildPhases = (
+				687A9CF2296D4BCE0024176D /* Sources */,
+				687A9CF3296D4BCE0024176D /* Frameworks */,
+				687A9CF4296D4BCE0024176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687A9CF8296D4BCE0024176D /* PBXTargetDependency */,
+			);
+			name = BemilyTests;
+			productName = BemilyTests;
+			productReference = 687A9CF6296D4BCE0024176D /* BemilyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		687A9CFF296D4BCE0024176D /* BemilyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687A9D10296D4BCE0024176D /* Build configuration list for PBXNativeTarget "BemilyUITests" */;
+			buildPhases = (
+				687A9CFC296D4BCE0024176D /* Sources */,
+				687A9CFD296D4BCE0024176D /* Frameworks */,
+				687A9CFE296D4BCE0024176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				687A9D02296D4BCE0024176D /* PBXTargetDependency */,
+			);
+			name = BemilyUITests;
+			productName = BemilyUITests;
+			productReference = 687A9D00296D4BCE0024176D /* BemilyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687A9CD5296D4BCD0024176D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					687A9CDC296D4BCD0024176D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					687A9CF5296D4BCE0024176D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 687A9CDC296D4BCD0024176D;
+					};
+					687A9CFF296D4BCE0024176D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 687A9CDC296D4BCD0024176D;
+					};
+				};
+			};
+			buildConfigurationList = 687A9CD8296D4BCD0024176D /* Build configuration list for PBXProject "Bemily" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687A9CD4296D4BCD0024176D;
+			productRefGroup = 687A9CDE296D4BCD0024176D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687A9CDC296D4BCD0024176D /* Bemily */,
+				687A9CF5296D4BCE0024176D /* BemilyTests */,
+				687A9CFF296D4BCE0024176D /* BemilyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687A9CDB296D4BCD0024176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A9CF0296D4BCE0024176D /* LaunchScreen.storyboard in Resources */,
+				687A9CED296D4BCE0024176D /* Assets.xcassets in Resources */,
+				687A9CE8296D4BCD0024176D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687A9CF4296D4BCE0024176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687A9CFE296D4BCE0024176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687A9CD9296D4BCD0024176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A9CE5296D4BCD0024176D /* ViewController.swift in Sources */,
+				687A9CEB296D4BCD0024176D /* Bemily.xcdatamodeld in Sources */,
+				687A9CE1296D4BCD0024176D /* AppDelegate.swift in Sources */,
+				687A9CE3296D4BCD0024176D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687A9CF2296D4BCE0024176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A9CFB296D4BCE0024176D /* BemilyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687A9CFC296D4BCE0024176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687A9D07296D4BCE0024176D /* BemilyUITestsLaunchTests.swift in Sources */,
+				687A9D05296D4BCE0024176D /* BemilyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		687A9CF8296D4BCE0024176D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687A9CDC296D4BCD0024176D /* Bemily */;
+			targetProxy = 687A9CF7296D4BCE0024176D /* PBXContainerItemProxy */;
+		};
+		687A9D02296D4BCE0024176D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 687A9CDC296D4BCD0024176D /* Bemily */;
+			targetProxy = 687A9D01296D4BCE0024176D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		687A9CE6296D4BCD0024176D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687A9CE7296D4BCD0024176D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687A9CEE296D4BCE0024176D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687A9CEF296D4BCE0024176D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687A9D08296D4BCE0024176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		687A9D09296D4BCE0024176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687A9D0B296D4BCE0024176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2WF6FR3RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bemily/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ann.beckwon.Bemily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687A9D0C296D4BCE0024176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2WF6FR3RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bemily/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ann.beckwon.Bemily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		687A9D0E296D4BCE0024176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2WF6FR3RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ann.beckwon.BemilyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bemily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bemily";
+			};
+			name = Debug;
+		};
+		687A9D0F296D4BCE0024176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2WF6FR3RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ann.beckwon.BemilyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bemily.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bemily";
+			};
+			name = Release;
+		};
+		687A9D11296D4BCE0024176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2WF6FR3RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ann.beckwon.BemilyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bemily;
+			};
+			name = Debug;
+		};
+		687A9D12296D4BCE0024176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2WF6FR3RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ann.beckwon.BemilyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bemily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687A9CD8296D4BCD0024176D /* Build configuration list for PBXProject "Bemily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687A9D08296D4BCE0024176D /* Debug */,
+				687A9D09296D4BCE0024176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687A9D0A296D4BCE0024176D /* Build configuration list for PBXNativeTarget "Bemily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687A9D0B296D4BCE0024176D /* Debug */,
+				687A9D0C296D4BCE0024176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687A9D0D296D4BCE0024176D /* Build configuration list for PBXNativeTarget "BemilyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687A9D0E296D4BCE0024176D /* Debug */,
+				687A9D0F296D4BCE0024176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687A9D10296D4BCE0024176D /* Build configuration list for PBXNativeTarget "BemilyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687A9D11296D4BCE0024176D /* Debug */,
+				687A9D12296D4BCE0024176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		687A9CE9296D4BCD0024176D /* Bemily.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				687A9CEA296D4BCD0024176D /* Bemily.xcdatamodel */,
+			);
+			currentVersion = 687A9CEA296D4BCD0024176D /* Bemily.xcdatamodel */;
+			path = Bemily.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 687A9CD5296D4BCD0024176D /* Project object */;
+}
