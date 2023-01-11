@@ -5,4 +5,6 @@
 //  Created by ByungHoon Ann on 2023/01/11.
 //
 
-import Foundation
+import UIKit
+
+extension UICollectionViewCell: Reusable { }
