@@ -5,4 +5,18 @@
 //  Created by ByungHoon Ann on 2023/01/11.
 //
 
-import Foundation
+import UIKit
+
+extension UIImageView {
+    func setImageUrl(_ imageName: String) {
+        ImageDownLoader.shared.setImage(to: self, imageURLString: imageName)
+    }
+    
+    func transition(toImage image: UIImage?) {
+            UIView.transition(with: self, duration: 0.3,
+                              options: [.transitionCrossDissolve],
+                              animations: {
+                                self.image = image
+            })
+    }
+}
