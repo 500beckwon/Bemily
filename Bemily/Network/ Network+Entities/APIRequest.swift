@@ -23,6 +23,10 @@ extension APIRequest {
     var urlString: String {
         return baseURLString
     }
+    
+    var path: String {
+        return ""
+    }
 
     var method: HTTPMethod {
         return .get
