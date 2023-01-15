@@ -35,7 +35,7 @@ final class NetworkRequest<T: Codable> {
         guard let url = makeURL(apiRequest) else {
             completion(.failure(NetworkError.badURL))
             return }
-        print(url)
+        
         let dataTask = session.dataTask(with: url) { data, response, error in
             if let error = error {
                 completion(.failure(error))
