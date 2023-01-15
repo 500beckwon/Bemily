@@ -20,7 +20,7 @@ final class ImageCache {
     func cacheClearAll() {
         imageCache.removeAllObjects()
     }
-
+    
     func imageObject(imageName: String) -> UIImage? {
         if let memoryImage = imageCache.object(forKey: NSString(string: imageName)) {
             return memoryImage

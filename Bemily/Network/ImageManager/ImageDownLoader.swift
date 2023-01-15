@@ -11,6 +11,8 @@ final class ImageDownLoader {
     
     static let shared = ImageDownLoader()
     
+    private init() { }
+    
     func setImage(to imageView: UIImageView, imageURLString: String) {
         if let cachedImage = ImageCache.shared.imageObject(imageName: imageURLString) {
             imageView.image = cachedImage
