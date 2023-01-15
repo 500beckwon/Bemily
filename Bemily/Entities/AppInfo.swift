@@ -22,14 +22,12 @@ struct AppInfo: Codable {
 extension AppInfo {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        guard let detail = try container
-            .decode([AppDetail].self,
-                    forKey: .screenshotList)
-                .first?
-            .screenshotUrls else {
+        guard let appDetail = try? container.decode([AppDetail].self,
+                                                    forKey: .screenshotList),
+              let screenShotUrls = appDetail.first?.screenshotUrls else {
             self.screenshotList = []
             return
         }
-        self.screenshotList = detail
+        self.screenshotList = screenShotUrls
     }
 }
